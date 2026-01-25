@@ -1,4 +1,10 @@
 {
-  "alexander-andrews-fsH1KjbdjE8-unsplash.jpg": "Andromeda (Photo by Guillermo Ferla, Unsplash)",
-  "guillermo-ferla-Oze6U2m1oYU-unsplash.jpg": "Orion Nebula (Photo by Alexander Andrews, Unsplash)"
+  "alexander-andrews-fsH1KjbdjE8-unsplash.jpg": {
+    "caption": "Andromeda",
+    "credit": "Guillermo Ferla, Unsplash"
+  },
+  "guillermo-ferla-Oze6U2m1oYU-unsplash.jpg": {
+    "caption": "Orion Nebula",
+    "credit": "Alexander Andrews, Unsplash"
+  }
 }
