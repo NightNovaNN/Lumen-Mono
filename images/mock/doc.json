@@ -1,10 +1,4 @@
 {
-  "photo.png": {
-    "caption": "Andromeda",
-    "credit": "Photo by Guillermo Ferla on Unsplash"
-  },
-  "pic.png": {
-    "caption": "Orion Nebula",
-    "credit": "Photo by Alexander Andrews on Unsplash"
-  }
+  "photo.png": "Andromeda (Photo by Guillermo Ferla, Unsplash)",
+  "pic.png": "Orion Nebula (Photo by Alexander Andrews, Unsplash)"
 }
