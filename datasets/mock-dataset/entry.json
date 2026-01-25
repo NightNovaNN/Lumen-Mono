@@ -1,5 +1,5 @@
 {
-  "name": "NGC 2392 – Eskimo Nebula (Mock Capture)",
+  "name": "NGC 2392 - Eskimo Nebula (Mock Capture)",
   "description": "Mock dataset used for testing Lumen dataset discovery, rendering, and metadata parsing. Data is not real and should not be used for scientific analysis.",
   "object": "NGC 2392",
   "object_type": "Planetary Nebula",
@@ -11,7 +11,7 @@
     "bortle_class": 6,
     "coordinates": {
       "ra": "07h29m10s",
-      "dec": "+20°54′42″"
+      "dec": "+20°54'42″"
     }
   },
 
