@@ -1,0 +1,68 @@
+{
+  "name": "NGC 2392 – Eskimo Nebula (Mock Capture)",
+  "description": "Mock dataset used for testing Lumen dataset discovery, rendering, and metadata parsing. Data is not real and should not be used for scientific analysis.",
+  "object": "NGC 2392",
+  "object_type": "Planetary Nebula",
+
+  "observation": {
+    "date_start": "2025-11-02",
+    "date_end": "2025-11-04",
+    "location": "Somewhere on Earth",
+    "bortle_class": 6,
+    "coordinates": {
+      "ra": "07h29m10s",
+      "dec": "+20°54′42″"
+    }
+  },
+
+  "instruments": {
+    "telescope": "150mm Newtonian (mock)",
+    "mount": "EQ Mount (mock)",
+    "camera": "CMOS Camera XYZ",
+    "filters": ["OIII", "H-alpha"]
+  },
+
+  "capture": {
+    "frames": {
+      "light": 120,
+      "dark": 25,
+      "flat": 20,
+      "bias": 40
+    },
+    "exposure_seconds": 10,
+    "gain": 120,
+    "stacking_software": "MockStack v0.1"
+  },
+
+  "data": {
+    "format": ["FITS", "PNG"],
+    "calibrated": true,
+    "stacked": true,
+    "raw_available": false
+  },
+
+  "contributors": [
+    {
+      "name": "ExampleUser",
+      "role": "Observer",
+      "contact": "https://github.com/exampleuser"
+    },
+    {
+      "name": "AnotherHuman",
+      "role": "Processing",
+      "contact": "https://github.com/anotherhuman"
+    }
+  ],
+
+  "license": "MIT",
+
+  "lumen": {
+    "sublumen": "ExampleSublumen",
+    "version": "v0.3-mock",
+    "live_session": false,
+    "mockup": true
+  },
+
+  "created_at": "2026-01-01",
+  "updated_at": "2026-01-02"
+}
