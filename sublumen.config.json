@@ -1,0 +1,20 @@
+{
+  "name": "Lumen Mono",
+  "desc": "Lumen Mono is a group of seven young enthusiasts who persevered through 17 iterations under Bortle 9 conditions to establish our foundational observatory.",
+  "members": 7,
+  "location": "Kolkata",
+  "tech_type": "scrap",
+  "level": "amateurs",
+  "bortle": 9,
+  "logo": "logo.png",
+  "website_link": "",
+  
+  "history": "Started as a tiny project, went through 17 iterations, each one learning and improving.",
+  "projects": [
+    "Base infrastructure",
+    "Mini-observatory builds",
+    "Sublumen prototyping"
+  ],
+  "goals": "To explore and document active sublumens in the constellation, learning as we go.",
+  "fun_fact": "We are literally 7 kids doing astronomical work under Bortle 9 light levels"
+}
