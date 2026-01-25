@@ -1,0 +1,59 @@
+{
+  "mock": true,
+  "object": "NGC 2392",
+  "object_type": "Planetary Nebula",
+
+  "summary": {
+    "total_frames": 120,
+    "stacked": true,
+    "calibrated": true,
+    "synthetic_data": true
+  },
+
+  "frames": [
+    {
+      "id": "frame_001",
+      "filter": "OIII",
+      "exposure_seconds": 10,
+      "signal_level": 0.72,
+      "noise_level": 0.18
+    },
+    {
+      "id": "frame_002",
+      "filter": "OIII",
+      "exposure_seconds": 10,
+      "signal_level": 0.74,
+      "noise_level": 0.17
+    },
+    {
+      "id": "frame_003",
+      "filter": "H-alpha",
+      "exposure_seconds": 10,
+      "signal_level": 0.68,
+      "noise_level": 0.21
+    }
+  ],
+
+  "derived_metrics": {
+    "average_signal": 0.71,
+    "average_noise": 0.19,
+    "snr_estimate": 3.7
+  },
+
+  "previews": [
+    {
+      "type": "image",
+      "format": "png",
+      "path": "preview/eskimo_nebula_mock.png",
+      "description": "Mock rendered preview image"
+    }
+  ],
+
+  "notes": [
+    "All numerical values are randomly generated.",
+    "Structure matches expected Lumen dataset format.",
+    "Do not use for real measurements."
+  ],
+
+  "generated_at": "2026-01-01T12:00:00Z"
+}
